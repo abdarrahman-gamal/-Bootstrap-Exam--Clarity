@@ -1,0 +1,77 @@
+:root {
+    --spacing: 4px;
+    --bs-body-color: #4a5565;
+    --primary-color: #ea580c;
+    --primary-color-rgb: 234, 90, 12;
+    --bs-body-font-family: 'Inter';
+    --color-secondary: #c2410c;
+}
+
+.navbar .btn {
+    --bs-btn-padding-x: calc(8*var(--spacing));
+    --bs-btn-padding-y: calc(3*var(--spacing));
+    --bs-btn-font-weight: 500;
+}
+
+
+.btn-outline-secondary {
+    --bs-btn-color: inherit;
+    --bs-btn-hover-color: var(--primary-color);
+    --bs-btn-hover-bg: transparent;
+    --bs-btn-focus-shadow-rgb: 0;
+    --bs-btn-active-color: var(--primary-color);
+    --bs-btn-active-bg: transparent;
+    --bs-btn-active-shadow: 0;
+}
+
+
+.navbar-nav {
+    --bs-nav-link-font-weight: 500;
+    --bs-nav-link-color: inherit;
+    --bs-nav-link-hover-color: var(--primary-color);
+}
+
+.btn-primary {
+    --bs-gradient: linear-gradient(to left, var(--primary-color), var(--color-secondary));
+    --bs-btn-color: #fff;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-shadow: inset 0 3px 5px rgb(var(--primary-color-rgb));
+}
+
+
+.grad-to-left {
+    --bs-gradient: linear-gradient(to left, var(--primary-color), var(--color-secondary));
+    background-image: var(--bs-gradient);
+}
+
+.grad-to-bottom-right {
+    --bs-gradient: linear-gradient(to bottom right, var(--primary-color), var(--color-secondary));
+    background-image: var(--bs-gradient);
+}
+
+
+.text-clip {
+    background-clip: text;
+    color: transparent;
+    text-shadow: none;
+}
+
+
+.navbar {
+    --bs-navbar-toggler-focus-width: 0.0rem;
+}
+
+
+
+.w-10 {
+    width: calc(10*var(--spacing));
+}
+
+.h-10 {
+    height: calc(10*var(--spacing));
+}
+
+.dropdown-toggle::after {
+    content: none;
+}
