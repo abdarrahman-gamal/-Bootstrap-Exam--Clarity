@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
         integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
@@ -16,15 +17,17 @@
 <body>
 
     <nav class="navbar navbar-expand-xl py-3 border border-1 border-bottom">
-        <div class="container-sm">
+        <div class="container-sm position-sticky">
             <div class="navbar-brand d-flex gap-3">
                 <div class="start">
-                    <div class="logo w-10 h-10 bg-danger rounded-3 d-flex align-items-center justify-content-center text-white grad-to-bottom-right">
+                    <div
+                        class="logo w-10 h-10 bg-danger rounded-3 d-flex align-items-center justify-content-center text-white grad-to-bottom-right">
                         <i class="fa-solid fa-cube"></i>
                     </div>
                 </div>
                 <div class="end">
-                    <div class="text h-100 d-flex align-items-center justify-content-center fw-bold grad-to-left text-clip">
+                    <div
+                        class="text h-100 d-flex align-items-center justify-content-center fw-bold grad-to-left text-clip">
                         Clarity
                     </div>
                 </div>
@@ -39,20 +42,139 @@
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#">Home</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Services <span>
                                 <i class="fa-solid fa-chevron-down small"></i>
                             </span>
                         </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <ul class="dropdown-menu col-12 col-xxl-9 max-h-350 overflow-y-auto p-4 border-0 responsive-shadow">
+                            <div class="items row g-5">
+                                <div class="col-12 col-md-6 col-xl-4">
+                                    <div class="inner d-flex flex-column row-gap-2">
+                                        <div class="text-primary fw-bold">Development</div>
+                                        <div
+                                            class="d-flex p-2 gap-2 align-items-center hover-primary-3 rounded-3 in-img-hover">
+                                            <div
+                                                class="img d-flex h-10 w-10 flex-shrink-0 flex-shrink-0 align-items-center justify-content-center bg-primary-2 rounded-2 small text-primary">
+                                                <i class="fa-solid fa-code"></i>
+                                            </div>
+                                            <div class="text">
+                                                <div class="lable fw-bold text-dark">Web Development</div>
+                                                <div class="info">Custom web applications & websites</div>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="d-flex p-2 gap-2 align-items-center hover-primary-3 rounded-3 in-img-hover">
+                                            <div
+                                                class="img d-flex h-10 w-10 flex-shrink-0 align-items-center justify-content-center bg-primary-2 rounded-2 small text-primary">
+                                                <i class="fa-solid fa-mobile"></i>
+                                            </div>
+                                            <div class="text">
+                                                <div class="lable fw-bold text-dark">Mobile Apps</div>
+                                                <div class="info">iOS & Android native apps</div>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="d-flex p-2 gap-2 align-items-center hover-primary-3 rounded-3 in-img-hover">
+                                            <div
+                                                class="img d-flex h-10 w-10 flex-shrink-0 align-items-center justify-content-center bg-primary-2 rounded-2 small text-primary">
+                                                <i class="fa-solid fa-palette"></i>
+                                            </div>
+                                            <div class="text">
+                                                <div class="lable fw-bold text-dark">UI/UX Design</div>
+                                                <div class="info">User-centered design solutions</div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="col-12 col-md-6 col-xl-4">
+                                    <div class="inner d-flex flex-column row-gap-2">
+                                        <div class="text-primary fw-bold">Infrastructure & AI</div>
+                                        <div
+                                            class="d-flex p-2 gap-2 align-items-center hover-primary-3 rounded-3 in-img-hover">
+                                            <div
+                                                class="img d-flex h-10 w-10 flex-shrink-0 align-items-center justify-content-center bg-primary-2 rounded-2 small text-primary">
+                                                <i class="fa-solid fa-cloud"></i>
+                                            </div>
+                                            <div class="text">
+                                                <div class="lable fw-bold text-dark">Cloud Solutions</div>
+                                                <div class="info">Scalable cloud infrastructure</div>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="d-flex p-2 gap-2 align-items-center hover-primary-3 rounded-3 in-img-hover">
+                                            <div
+                                                class="img d-flex h-10 w-10 flex-shrink-0 align-items-center justify-content-center bg-primary-2 rounded-2 small text-primary">
+                                                <i class="fa-solid fa-brain"></i>
+                                            </div>
+                                            <div class="text">
+                                                <div class="lable fw-bold text-dark">AI & Machine Learning</div>
+                                                <div class="info">Intelligent automation solutions</div>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="d-flex p-2 gap-2 align-items-center hover-primary-3 rounded-3 in-img-hover">
+                                            <div
+                                                class="img d-flex h-10 w-10 flex-shrink-0 align-items-center justify-content-center bg-primary-2 rounded-2 small text-primary">
+                                                <i class="fa-solid fa-database"></i>
+                                            </div>
+                                            <div class="text">
+                                                <div class="lable fw-bold text-dark">Data Solutions</div>
+                                                <div class="info">Database & analytics platforms</div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="col-12 col-xl-4">
+                                    <div class="inner row row-gap-2 gx-5">
+                                        <div class="inner-1 d-flex flex-column row-gap-2 col-12 col-md-6 col-xl-12">
+                                            <div class="text-primary fw-bold">Marketing</div>
+                                            <div
+                                                class="d-flex p-2 gap-2 align-items-center hover-primary-3 rounded-3 in-img-hover">
+                                                <div
+                                                    class="img d-flex h-10 w-10 flex-shrink-0 align-items-center justify-content-center bg-primary-2 rounded-2 small text-primary">
+                                                    <i class="fa-solid fa-chart-line"></i>
+                                                </div>
+                                                <div class="text">
+                                                    <div class="lable fw-bold text-dark">Digital Marketing</div>
+                                                    <div class="info">SEO, SEM & social media</div>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="d-flex p-2 gap-2 align-items-center hover-primary-3 rounded-3 in-img-hover">
+                                                <div
+                                                    class="img d-flex h-10 w-10 flex-shrink-0 align-items-center justify-content-center bg-primary-2 rounded-2 small text-primary">
+                                                    <i class="fa-solid fa-bullhorn"></i>
+                                                </div>
+                                                <div class="text">
+                                                    <div class="lable fw-bold text-dark">Content Strategy</div>
+                                                    <div class="info">Engaging content creation</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="inner-2 col-12 col-md-6 col-xl-12">
+                                            <div class="inner bg-primary-2 h-100 p-3 rounded-3 border border-1 border-primary">
+                                                <div class="lable fw-bold text-dark">Need help choosing?</div>
+                                                <div class="info small">Talk to our experts to find the perfect solution
+                                                    for your
+                                                    business.</div>
+                                                <div><a class="fw-bold small text-decoration-none"
+                                                        href="#contact">Contact us
+                                                    <i class="fa-solid fa-arrow-right"></i>
+                                                    </a></div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -70,15 +192,17 @@
 
                 </ul>
                 <div class="buttons d-flex flex-column flex-xl-row gap-3">
-                    <button class="btn btn-outline-secondary p-x-3 p-y-8 border-0 rounded-pill" type="button">Sign In</button>
-                    <button class="btn btn-primary p-x-3 p-y-8 rounded-pill border-0 grad-to-left" type="button">Get Started</button>
+                    <button class="btn btn-outline-secondary p-x-3 p-y-8 border-0 rounded-pill" type="button">Sign
+                        In</button>
+                    <button class="btn btn-primary p-x-3 p-y-8 rounded-pill border-0 grad-to-left" type="button">Get
+                        Started</button>
                 </div>
             </div>
         </div>
     </nav>
 
 
-<script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
 
 
 </body>

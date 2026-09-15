@@ -5,6 +5,13 @@
     --primary-color-rgb: 234, 90, 12;
     --bs-body-font-family: 'Inter';
     --color-secondary: #c2410c;
+    --bs-primary-rgb: 234, 88, 12;
+    --primary-2: #FAE6DC;
+    --primary-3: #FCF5F2;
+    --bs-link-color: #ea580c;
+    --bs-link-color-rgb: 234, 88, 12;
+    --bs-link-hover-color: #C3430F;
+    --bs-link-hover-color-rgb:195, 67, 15;
 }
 
 .navbar .btn {
@@ -24,7 +31,9 @@
     --bs-btn-active-shadow: 0;
 }
 
-
+.d{
+    text-decoration: none;
+}
 .navbar-nav {
     --bs-nav-link-font-weight: 500;
     --bs-nav-link-color: inherit;
@@ -51,6 +60,10 @@
 }
 
 
+.border-primary {
+    --bs-primary-rgb:248, 208, 187;
+}
+
 .text-clip {
     background-clip: text;
     color: transparent;
@@ -62,8 +75,6 @@
     --bs-navbar-toggler-focus-width: 0.0rem;
 }
 
-
-
 .w-10 {
     width: calc(10*var(--spacing));
 }
@@ -74,4 +85,35 @@
 
 .dropdown-toggle::after {
     content: none;
+}
+
+.bg-primary-2 {
+    background-color: var(--primary-2);
+}
+
+.bg-primary-3 {
+    background-color: var(--primary-3);
+}
+
+.hover-primary-3:hover {
+    background-color: var(--primary-3);
+}
+
+.in-img-hover {
+    transition: .4s;
+}
+
+.in-img-hover:hover .img {
+    transform: scale(110%);
+}
+
+.max-h-350{
+    max-height: 400px;
+}
+
+/* Large screens (xl) and up */
+@media (min-width: 1200px) {
+  .responsive-shadow {
+    box-shadow: var(--bs-box-shadow-lg) !important; /* matches .shadow-lg */
+  }
 }
