@@ -247,6 +247,9 @@
     top: -10px;
 }
 
+.nav-underline {
+    --bs-nav-underline-link-active-color: var(--primary-colorr);
+}
 
 
 
