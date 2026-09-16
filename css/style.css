@@ -248,11 +248,149 @@
 }
 
 .nav-underline {
-    --bs-nav-underline-link-active-color: var(--primary-colorr);
+    --bs-nav-underline-link-active-color: var(--primary-color);
+}
+
+#technology .nav-link {
+    --bs-nav-link-color: var(--bs-body-color);
+    --bs-nav-link-hover-color: var(--primary-color);
 }
 
 
 
+.blue-gradiant {
+    background-image: linear-gradient(to right bottom, oklch(0.97 0.014 254.604) 0%, oklch(0.932 0.032 255.585) 100%);
+}
+
+.gray-gradiant {
+    background-image: linear-gradient(to right bottom, oklch(0.985 0.002 247.839) 0%, oklch(0.967 0.003 264.542) 100%);
+}
+
+.green-gradiant {
+    background-image: linear-gradient(to right bottom, oklch(0.982 0.018 155.826) 0%, oklch(0.962 0.044 156.743) 100%);
+}
+
+.orange-gradiant {
+    background-image: linear-gradient(to right bottom, oklch(0.98 0.016 73.684) 0%, oklch(0.954 0.038 75.164) 100%);
+}
+
+.sky-gradiant {
+    background-image: linear-gradient(to right bottom, oklch(0.984 0.019 200.873) 0%, oklch(0.956 0.045 203.388) 100%);
+}
+
+.purple-gradiant {
+    background-image: linear-gradient(to right bottom, oklch(0.977 0.014 308.299) 0%, oklch(0.946 0.033 307.174) 100%);
+}
+
+.red-gradiant {
+    background-image: linear-gradient(to right bottom, oklch(0.971 0.013 17.38) 0%, oklch(0.936 0.032 17.717) 100%);
+}
+
+.yellow-gradiant {
+    background-image: linear-gradient(to right bottom, oklch(0.987 0.026 102.212) 0%, oklch(0.973 0.071 103.193) 100%);
+}
+
+
+
+/* ------- */
+
+.blue-gradiant-trans {
+    background-image: linear-gradient(to right, oklch(0.97 0.014 254.604/0) 0%, oklch(0.932 0.032 255.585) 100%);
+}
+
+.bg-blue {
+    background-color: #2B7FFF;
+}
+
+.text-blue {
+    color: #2B7FFF;
+}
+
+.gray-gradiant-trans {
+    background-image: linear-gradient(to right, oklch(0.985 0.002 247.839/0) 0%, oklch(0.967 0.003 264.542) 100%);
+}
+
+.bg-gray {
+    background-color: #000000;
+}
+
+.text-gray {
+    color: #000000;
+}
+
+.green-gradiant-trans {
+    background-image: linear-gradient(to right, oklch(0.982 0.018 155.826/0) 0%, oklch(0.962 0.044 156.743) 100%);
+}
+
+.bg-green {
+    background-color: #00C950;
+}
+
+.text-green {
+    color: #00C950;
+}
+
+.orange-gradiant-trans {
+    background-image: linear-gradient(to right, oklch(0.98 0.016 73.684/0) 0%, oklch(0.954 0.038 75.164) 100%);
+}
+
+.bg-orange {
+    background-color: #F54900;
+}
+
+.text-orange {
+    color: #F54900;
+}
+
+
+.sky-gradiant-trans {
+    background-image: linear-gradient(to right, oklch(0.984 0.019 200.873/0) 0%, oklch(0.956 0.045 203.388) 100%);
+}
+
+.bg-sky {
+    background-color: #00B8DB;
+}
+
+.text-sky {
+    color: #00B8DB;
+}
+
+.purple-gradiant-trans {
+    background-image: linear-gradient(to right, oklch(0.977 0.014 308.299/0) 0%, oklch(0.946 0.033 307.174) 100%);
+}
+
+.bg-purple {
+    background-color: #9810FA;
+}
+
+.text-purple {
+    color: #9810FA;
+}
+
+.red-gradiant-trans {
+    background-image: linear-gradient(to right, oklch(0.971 0.013 17.38/0) 0%, oklch(0.936 0.032 17.717) 100%);
+}
+
+
+.bg-red {
+    background-color: #E7000B;
+}
+
+.text-red {
+    color: #E7000B;
+}
+
+.yellow-gradiant-trans {
+    background-image: linear-gradient(to right, oklch(0.987 0.026 102.212/0) 0%, oklch(0.973 0.071 103.193) 100%);
+}
+
+.bg-yellow {
+    background-color: #D08700;
+}
+
+.text-yellow {
+    color: #D08700;
+}
 
 
 

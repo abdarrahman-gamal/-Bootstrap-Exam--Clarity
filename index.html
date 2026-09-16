@@ -226,7 +226,7 @@
                         </p>
                         <div class="buttons row mb-64 w-100 gap-3">
                             <button
-                                class="btn btn-primary rounded-pill border-0 grad-to-left p-y-16 p-x-40 fs-5 col-12 col-md-auto px-md-4"
+                                class="btn btn-primary rounded-pill border-0 grad-to-left p-y-16 p-x-40 fs-5 col-12 col-md-auto px-md-4 hover-up-shadow"
                                 type="button">Start Your Project <i class="fa-solid fa-arrow-right small"></i></button>
                             <button
                                 class="btn btn-outline-secondary border-2 rounded-pill p-y-16 p-x-40 fs-5 border-hover col-12 col-md-auto px-md-4"
@@ -487,7 +487,7 @@
 
 
     </div>
-    <div id="technology" class="pt-100">
+    <div id="technology" class="pt-100 pb-5">
         <div class="container-sm">
             <div class="heading text-center d-flex flex-column align-items-center mb-32">
                 <div class="tag bg-primary-2 rounded-pill text-primary p-x-16 p-y-8 small lh-sm mb-3">
@@ -503,24 +503,917 @@
                     solutions.
                 </p>
             </div>
-            <ul class="nav justify-content-center border-bottom nav-underline" id="myTab" role="tablist">
+            <ul class="nav justify-content-center border-bottom nav-underline gap-0" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
-                        type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Home</button>
+                    <button class="nav-link active fw-bold px-4 py-3" id="front-tab" data-bs-toggle="tab"
+                        data-bs-target="#front-tab-pane">
+                        <i class="fa-solid fa-code"></i>
+                        Frontend
+
+                    </button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
-                        type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Profile</button>
+                    <button class="nav-link fw-bold px-4 py-3" id="back-tab" data-bs-toggle="tab"
+                        data-bs-target="#back-tab-pane" type="button" role="tab">
+                        <i class="fa-solid fa-server"></i>
+                        Backend
+
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link fw-bold px-4 py-3" id="mobile-tab" data-bs-toggle="tab"
+                        data-bs-target="#mobile-tab-pane" type="button" role="tab">
+                        <i class="fa-solid fa-mobile"></i>
+                        Mobile
+
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link fw-bold px-4 py-3" id="cloud-tab" data-bs-toggle="tab"
+                        data-bs-target="#cloud-tab-pane" type="button" role="tab">
+                        <i class="fa-solid fa-cloud"></i>
+                        Cloud & DevOps
+
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link fw-bold px-4 py-3" id="database-tab" data-bs-toggle="tab"
+                        data-bs-target="#database-tab-pane" type="button" role="tab">
+                        <i class="fa-solid fa-database"></i>
+                        Database
+
+                    </button>
                 </li>
             </ul>
             <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
-                    tabindex="0">..1.</div>
-                <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
-                    tabindex="0">..2.</div>
+                <div class="tab-pane fade show active" id="front-tab-pane" role="tabpanel" tabindex="0">
+
+
+                    <div class="heading text-center d-flex flex-column align-items-center mb-32 mt-5">
+                        <h2 class="fs-3 fw-900 mb-2">
+                            <span class="text-d-primary">Frontend Technologies </span>
+                        </h2>
+                        <p class="max-w-750">
+                            Modern frameworks and libraries for creating exceptional user interfaces
+                        </p>
+                    </div>
+
+
+                    <div class="content row g-4">
+                        <div class="outer col-12 col-md-6 col-lg-4">
+                            <div
+                                class="d-flex flex-column p-4 gap-3 align-items-start rounded-4 hover-up-shadow-dark blue-gradiant h-100">
+                                <div
+                                    class="img d-flex h-14 w-14 flex-shrink-0 align-items-center justify-content-center bg-blue rounded-4 text-white">
+                                    <i class="fa-brands fa-react fa-lg"></i>
+                                </div>
+                                <div class="text">
+                                    <div class="lable fw-bold text-d-primary mb-2">React.js</div>
+                                    <div class="info small">Component-based library for building interactive user
+                                        interfaces with virtual DOM.</div>
+                                </div>
+                                <div class="tags">
+                                    <span class="px-2 py-1 blue-gradiant-trans text-blue rounded-pill fa-2xs">JSX</span>
+                                    <span
+                                        class="px-2 py-1 blue-gradiant-trans text-blue rounded-pill fa-2xs">Hooks</span>
+                                    <span
+                                        class="px-2 py-1 blue-gradiant-trans text-blue rounded-pill fa-2xs">Redux</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="outer col-12 col-md-6 col-lg-4">
+                            <div
+                                class="d-flex flex-column p-4 gap-3 align-items-start rounded-4 hover-up-shadow-dark gray-gradiant h-100">
+                                <div
+                                    class="img d-flex h-14 w-14 flex-shrink-0 align-items-center justify-content-center bg-gray rounded-4 text-white">
+                                    <span class="fa-xs fw-bold">Next</span>
+                                </div>
+                                <div class="text">
+                                    <div class="lable fw-bold text-d-primary mb-2">Next.js</div>
+                                    <div class="info small">Full-stack React framework with server-side rendering and
+                                        static generation</div>
+                                </div>
+                                <div class="tags">
+                                    <span class="px-2 py-1 gray-gradiant-trans text-gray rounded-pill fa-2xs">API
+                                        Routes</span>
+                                    <span class="px-2 py-1 gray-gradiant-trans text-gray rounded-pill fa-2xs">SSR</span>
+                                    <span class="px-2 py-1 gray-gradiant-trans text-gray rounded-pill fa-2xs">SSG</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="outer col-12 col-md-6 col-lg-4">
+                            <div
+                                class="d-flex flex-column p-4 gap-3 align-items-start rounded-4 hover-up-shadow-dark green-gradiant h-100">
+                                <div
+                                    class="img d-flex h-14 w-14 flex-shrink-0 align-items-center justify-content-center bg-green rounded-4 text-white">
+                                    <i class="fa-brands fa-vuejs fa-lg"></i>
+                                </div>
+                                <div class="text">
+                                    <div class="lable fw-bold text-d-primary mb-2">Vue.js</div>
+                                    <div class="info small">Progressive framework for building user interfaces with
+                                        excellent developer experience</div>
+                                </div>
+                                <div class="tags">
+                                    <span
+                                        class="px-2 py-1 green-gradiant-trans text-green rounded-pill fa-2xs">Nuxt</span>
+                                    <span
+                                        class="px-2 py-1 green-gradiant-trans text-green rounded-pill fa-2xs">Composition
+                                        API</span>
+                                    <span
+                                        class="px-2 py-1 green-gradiant-trans text-green rounded-pill fa-2xs">Vuex</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="outer col-12 col-md-6 col-lg-4">
+                            <div
+                                class="d-flex flex-column p-4 gap-3 align-items-start rounded-4 hover-up-shadow-dark orange-gradiant h-100">
+                                <div
+                                    class="img d-flex h-14 w-14 flex-shrink-0 align-items-center justify-content-center bg-orange rounded-4 text-white">
+                                    <i class="fa-brands fa-angular fa-lg"></i>
+                                </div>
+                                <div class="text">
+                                    <div class="lable fw-bold text-d-primary mb-2">Angular</div>
+                                    <div class="info small">Comprehensive platform for building scalable web
+                                        applications</div>
+                                </div>
+                                <div class="tags">
+                                    <span
+                                        class="px-2 py-1 orange-gradiant-trans text-orange rounded-pill fa-2xs">CLI</span>
+                                    <span
+                                        class="px-2 py-1 orange-gradiant-trans text-orange rounded-pill fa-2xs">TypeScript</span>
+                                    <span
+                                        class="px-2 py-1 orange-gradiant-trans text-orange rounded-pill fa-2xs">RxJS</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="outer col-12 col-md-6 col-lg-4">
+                            <div
+                                class="d-flex flex-column p-4 gap-3 align-items-start rounded-4 hover-up-shadow-dark sky-gradiant h-100">
+                                <div
+                                    class="img d-flex h-14 w-14 flex-shrink-0 align-items-center justify-content-center bg-sky rounded-4 text-white">
+                                    <i class="fa-brands fa-css3 fa-lg"></i>
+                                </div>
+                                <div class="text">
+                                    <div class="lable fw-bold text-d-primary mb-2">Tailwind CSS</div>
+                                    <div class="info small">Utility-first CSS framework for rapid UI development</div>
+                                </div>
+                                <div class="tags">
+                                    <span
+                                        class="px-2 py-1 sky-gradiant-trans text-sky rounded-pill fa-2xs">Responsive</span>
+                                    <span class="px-2 py-1 sky-gradiant-trans text-sky rounded-pill fa-2xs">JIT</span>
+                                    <span
+                                        class="px-2 py-1 sky-gradiant-trans text-sky rounded-pill fa-2xs">Components</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="outer col-12 col-md-6 col-lg-4">
+                            <div
+                                class="d-flex flex-column p-4 gap-3 align-items-start rounded-4 hover-up-shadow-dark purple-gradiant h-100">
+                                <div
+                                    class="img d-flex h-14 w-14 flex-shrink-0 align-items-center justify-content-center bg-purple rounded-4 text-white">
+                                    <i class="fa-solid fa-bolt fa-lg"></i>
+                                </div>
+                                <div class="text">
+                                    <div class="lable fw-bold text-d-primary mb-2">Vite</div>
+                                    <div class="info small">Next generation frontend tooling with lightning fast builds
+                                    </div>
+                                </div>
+                                <div class="tags">
+                                    <span
+                                        class="px-2 py-1 purple-gradiant-trans text-purple rounded-pill fa-2xs">Rollup</span>
+                                    <span
+                                        class="px-2 py-1 purple-gradiant-trans text-purple rounded-pill fa-2xs">HMR</span>
+                                    <span
+                                        class="px-2 py-1 purple-gradiant-trans text-purple rounded-pill fa-2xs">ESM</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="tab-pane fade" id="back-tab-pane" role="tabpanel" tabindex="0">
+
+
+                    <div class="heading text-center d-flex flex-column align-items-center mb-32 mt-5">
+                        <h2 class="fs-3 fw-900 mb-2">
+                            <span class="text-d-primary">Backend Technologies</span>
+                        </h2>
+                        <p class="max-w-750">
+                            Robust server-side technologies for scalable and secure applications
+                        </p>
+                    </div>
+
+
+                    <div class="content row g-4">
+
+                        <div class="outer col-12 col-md-6 col-lg-4">
+                            <div
+                                class="d-flex flex-column p-4 gap-3 align-items-start rounded-4 hover-up-shadow-dark green-gradiant h-100">
+
+                                <div
+                                    class="img d-flex h-14 w-14 flex-shrink-0 align-items-center justify-content-center bg-green rounded-4 text-white">
+                                    <i class="fa-brands fa-node-js fa-lg"></i>
+                                </div>
+
+                                <div class="text">
+                                    <div class="lable fw-bold text-d-primary mb-2">Node.js</div>
+                                    <div class="info small">
+                                        JavaScript runtime built on Chrome's V8 engine for server-side development
+                                    </div>
+                                </div>
+
+                                <div class="tags">
+                                    <span
+                                        class="px-2 py-1 green-gradiant-trans text-green rounded-pill fa-2xs">Express.js</span>
+                                    <span
+                                        class="px-2 py-1 green-gradiant-trans text-green rounded-pill fa-2xs">NPM</span>
+                                    <span
+                                        class="px-2 py-1 green-gradiant-trans text-green rounded-pill fa-2xs">TypeScript</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="outer col-12 col-md-6 col-lg-4">
+                            <div
+                                class="d-flex flex-column p-4 gap-3 align-items-start rounded-4 hover-up-shadow-dark blue-gradiant h-100">
+
+                                <div
+                                    class="img d-flex h-14 w-14 flex-shrink-0 align-items-center justify-content-center bg-blue rounded-4 text-white">
+                                    <i class="fa-brands fa-python fa-lg"></i>
+                                </div>
+
+                                <div class="text">
+                                    <div class="lable fw-bold text-d-primary mb-2">Python</div>
+                                    <div class="info small">
+                                        Versatile programming language with powerful frameworks for web development
+                                    </div>
+                                </div>
+
+                                <div class="tags">
+                                    <span
+                                        class="px-2 py-1 blue-gradiant-trans text-blue rounded-pill fa-2xs">Django</span>
+                                    <span
+                                        class="px-2 py-1 blue-gradiant-trans text-blue rounded-pill fa-2xs">FastAPI</span>
+                                    <span
+                                        class="px-2 py-1 blue-gradiant-trans text-blue rounded-pill fa-2xs">Flask</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="outer col-12 col-md-6 col-lg-4">
+                            <div
+                                class="d-flex flex-column p-4 gap-3 align-items-start rounded-4 hover-up-shadow-dark red-gradiant h-100">
+
+                                <div
+                                    class="img d-flex h-14 w-14 flex-shrink-0 align-items-center justify-content-center bg-red rounded-4 text-white">
+                                    <span class="fa-xs fw-bold">Go</span>
+                                </div>
+
+                                <div class="text">
+                                    <div class="lable fw-bold text-d-primary mb-2">Golang</div>
+                                    <div class="info small">
+                                        Fast, statically typed language designed for modern software development
+                                    </div>
+                                </div>
+
+                                <div class="tags">
+                                    <span class="px-2 py-1 red-gradiant-trans text-red rounded-pill fa-2xs">Gin</span>
+                                    <span
+                                        class="px-2 py-1 red-gradiant-trans text-red rounded-pill fa-2xs">Goroutines</span>
+                                    <span
+                                        class="px-2 py-1 red-gradiant-trans text-red rounded-pill fa-2xs">Microservices</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="outer col-12 col-md-6 col-lg-4">
+                            <div
+                                class="d-flex flex-column p-4 gap-3 align-items-start rounded-4 hover-up-shadow-dark purple-gradiant h-100">
+
+                                <div
+                                    class="img d-flex h-14 w-14 flex-shrink-0 align-items-center justify-content-center bg-purple rounded-4 text-white">
+                                    <i class="fa-brands fa-java fa-lg"></i>
+                                </div>
+
+                                <div class="text">
+                                    <div class="lable fw-bold text-d-primary mb-2">Java</div>
+                                    <div class="info small">
+                                        Enterprise-grade platform with robust frameworks for large-scale applications
+                                    </div>
+                                </div>
+
+                                <div class="tags">
+                                    <span class="px-2 py-1 purple-gradiant-trans text-purple rounded-pill fa-2xs">Spring
+                                        Boot</span>
+                                    <span
+                                        class="px-2 py-1 purple-gradiant-trans text-purple rounded-pill fa-2xs">Hibernate</span>
+                                    <span
+                                        class="px-2 py-1 purple-gradiant-trans text-purple rounded-pill fa-2xs">Maven</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="outer col-12 col-md-6 col-lg-4">
+                            <div
+                                class="d-flex flex-column p-4 gap-3 align-items-start rounded-4 hover-up-shadow-dark gray-gradiant h-100">
+
+                                <div
+                                    class="img d-flex h-14 w-14 flex-shrink-0 align-items-center justify-content-center bg-gray rounded-4 text-white">
+                                    <span class="fa-xs fw-bold">.NET</span>
+                                </div>
+
+                                <div class="text">
+                                    <div class="lable fw-bold text-d-primary mb-2">.NET Core</div>
+                                    <div class="info small">
+                                        Cross-platform framework for building modern, cloud-based applications
+                                    </div>
+                                </div>
+
+                                <div class="tags">
+                                    <span class="px-2 py-1 gray-gradiant-trans text-gray rounded-pill fa-2xs">C#</span>
+                                    <span class="px-2 py-1 gray-gradiant-trans text-gray rounded-pill fa-2xs">Entity
+                                        Framework</span>
+                                    <span
+                                        class="px-2 py-1 gray-gradiant-trans text-gray rounded-pill fa-2xs">Azure</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="outer col-12 col-md-6 col-lg-4">
+                            <div
+                                class="d-flex flex-column p-4 gap-3 align-items-start rounded-4 hover-up-shadow-dark sky-gradiant h-100">
+
+                                <div
+                                    class="img d-flex h-14 w-14 flex-shrink-0 align-items-center justify-content-center bg-sky rounded-4 text-white">
+                                    <i class="fa-solid fa-gem fa-lg"></i>
+                                </div>
+
+                                <div class="text">
+                                    <div class="lable fw-bold text-d-primary mb-2">Ruby</div>
+                                    <div class="info small">
+                                        Dynamic language focused on simplicity and productivity
+                                    </div>
+                                </div>
+
+                                <div class="tags">
+                                    <span class="px-2 py-1 sky-gradiant-trans text-sky rounded-pill fa-2xs">Rails</span>
+                                    <span
+                                        class="px-2 py-1 sky-gradiant-trans text-sky rounded-pill fa-2xs">Sinatra</span>
+                                    <span
+                                        class="px-2 py-1 sky-gradiant-trans text-sky rounded-pill fa-2xs">RubyGems</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+                </div>
+                <div class="tab-pane fade" id="mobile-tab-pane" role="tabpanel" tabindex="0">
+
+
+
+
+
+                    <!-- --------------------------->
+
+
+
+
+
+
+
+                    <div class="heading text-center d-flex flex-column align-items-center mb-32 mt-5">
+                        <h2 class="fs-3 fw-900 mb-2">
+                            <span class="text-d-primary">Mobile Technologies</span>
+                        </h2>
+                        <p class="max-w-750">
+                            Native and cross-platform solutions for iOS and Android development
+                        </p>
+                    </div>
+
+                    <div class="content row g-4">
+
+                        <div class="outer col-12 col-md-6 col-lg-4">
+                            <div
+                                class="d-flex flex-column p-4 gap-3 align-items-start rounded-4 hover-up-shadow-dark blue-gradiant h-100">
+                                <div
+                                    class="img d-flex h-14 w-14 flex-shrink-0 align-items-center justify-content-center bg-blue rounded-4 text-white">
+                                    <i class="fa-brands fa-react fa-lg"></i>
+                                </div>
+                                <div class="text">
+                                    <div class="lable fw-bold text-d-primary mb-2">React Native</div>
+                                    <div class="info small">
+                                        Cross-platform mobile development using React and JavaScript
+                                    </div>
+                                </div>
+                                <div class="tags">
+                                    <span
+                                        class="px-2 py-1 blue-gradiant-trans text-blue rounded-pill fa-2xs">Expo</span>
+                                    <span
+                                        class="px-2 py-1 blue-gradiant-trans text-blue rounded-pill fa-2xs">Navigation</span>
+                                    <span
+                                        class="px-2 py-1 blue-gradiant-trans text-blue rounded-pill fa-2xs">Redux</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="outer col-12 col-md-6 col-lg-4">
+                            <div
+                                class="d-flex flex-column p-4 gap-3 align-items-start rounded-4 hover-up-shadow-dark sky-gradiant h-100">
+                                <div
+                                    class="img d-flex h-14 w-14 flex-shrink-0 align-items-center justify-content-center bg-sky rounded-4 text-white">
+                                    <i class="fa-solid fa-mobile fa-lg"></i>
+                                </div>
+                                <div class="text">
+                                    <div class="lable fw-bold text-d-primary mb-2">Flutter</div>
+                                    <div class="info small">
+                                        Google's UI toolkit for building natively compiled applications
+                                    </div>
+                                </div>
+                                <div class="tags">
+                                    <span class="px-2 py-1 sky-gradiant-trans text-sky rounded-pill fa-2xs">Dart</span>
+                                    <span
+                                        class="px-2 py-1 sky-gradiant-trans text-sky rounded-pill fa-2xs">Widgets</span>
+                                    <span
+                                        class="px-2 py-1 sky-gradiant-trans text-sky rounded-pill fa-2xs">Material</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="outer col-12 col-md-6 col-lg-4">
+                            <div
+                                class="d-flex flex-column p-4 gap-3 align-items-start rounded-4 hover-up-shadow-dark gray-gradiant h-100">
+                                <div
+                                    class="img d-flex h-14 w-14 flex-shrink-0 align-items-center justify-content-center bg-gray rounded-4 text-white">
+                                    <i class="fa-brands fa-apple fa-lg"></i>
+                                </div>
+                                <div class="text">
+                                    <div class="lable fw-bold text-d-primary mb-2">iOS Native</div>
+                                    <div class="info small">
+                                        Native iOS development using Swift and Xcode
+                                    </div>
+                                </div>
+                                <div class="tags">
+                                    <span
+                                        class="px-2 py-1 gray-gradiant-trans text-gray rounded-pill fa-2xs">Swift</span>
+                                    <span
+                                        class="px-2 py-1 gray-gradiant-trans text-gray rounded-pill fa-2xs">SwiftUI</span>
+                                    <span class="px-2 py-1 gray-gradiant-trans text-gray rounded-pill fa-2xs">Core
+                                        Data</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="outer col-12 col-md-6 col-lg-4">
+                            <div
+                                class="d-flex flex-column p-4 gap-3 align-items-start rounded-4 hover-up-shadow-dark green-gradiant h-100">
+                                <div
+                                    class="img d-flex h-14 w-14 flex-shrink-0 align-items-center justify-content-center bg-green rounded-4 text-white">
+                                    <i class="fa-brands fa-android fa-lg"></i>
+                                </div>
+                                <div class="text">
+                                    <div class="lable fw-bold text-d-primary mb-2">Android Native</div>
+                                    <div class="info small">
+                                        Native Android development using Kotlin and Android Studio
+                                    </div>
+                                </div>
+                                <div class="tags">
+                                    <span
+                                        class="px-2 py-1 green-gradiant-trans text-green rounded-pill fa-2xs">Kotlin</span>
+                                    <span
+                                        class="px-2 py-1 green-gradiant-trans text-green rounded-pill fa-2xs">Jetpack</span>
+                                    <span
+                                        class="px-2 py-1 green-gradiant-trans text-green rounded-pill fa-2xs">Room</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="outer col-12 col-md-6 col-lg-4">
+                            <div
+                                class="d-flex flex-column p-4 gap-3 align-items-start rounded-4 hover-up-shadow-dark purple-gradiant h-100">
+                                <div
+                                    class="img d-flex h-14 w-14 flex-shrink-0 align-items-center justify-content-center bg-purple rounded-4 text-white">
+                                    <i class="fa-solid fa-code fa-lg"></i>
+                                </div>
+                                <div class="text">
+                                    <div class="lable fw-bold text-d-primary mb-2">Xamarin</div>
+                                    <div class="info small">
+                                        Microsoft's cross-platform solution using C# and .NET
+                                    </div>
+                                </div>
+                                <div class="tags">
+                                    <span
+                                        class="px-2 py-1 purple-gradiant-trans text-purple rounded-pill fa-2xs">C#</span>
+                                    <span
+                                        class="px-2 py-1 purple-gradiant-trans text-purple rounded-pill fa-2xs">Forms</span>
+                                    <span
+                                        class="px-2 py-1 purple-gradiant-trans text-purple rounded-pill fa-2xs">MVVM</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="outer col-12 col-md-6 col-lg-4">
+                            <div
+                                class="d-flex flex-column p-4 gap-3 align-items-start rounded-4 hover-up-shadow-dark orange-gradiant h-100">
+                                <div
+                                    class="img d-flex h-14 w-14 flex-shrink-0 align-items-center justify-content-center bg-orange rounded-4 text-white">
+                                    <i class="fa-solid fa-globe fa-lg"></i>
+                                </div>
+                                <div class="text">
+                                    <div class="lable fw-bold text-d-primary mb-2">PWA</div>
+                                    <div class="info small">
+                                        Progressive Web Apps with native-like mobile experiences
+                                    </div>
+                                </div>
+                                <div class="tags">
+                                    <span
+                                        class="px-2 py-1 orange-gradiant-trans text-orange rounded-pill fa-2xs">Service
+                                        Worker</span>
+                                    <span
+                                        class="px-2 py-1 orange-gradiant-trans text-orange rounded-pill fa-2xs">Manifest</span>
+                                    <span
+                                        class="px-2 py-1 orange-gradiant-trans text-orange rounded-pill fa-2xs">Offline</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <!-- -------------------------- -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+                <div class="tab-pane fade" id="cloud-tab-pane" role="tabpanel" tabindex="0">
+
+                    <div class="heading text-center d-flex flex-column align-items-center mb-32 mt-5">
+                        <h2 class="fs-3 fw-900 mb-2">
+                            <span class="text-d-primary">Cloud &amp; DevOps</span>
+                        </h2>
+                        <p class="max-w-750">
+                            Modern cloud infrastructure and deployment technologies
+                        </p>
+                    </div>
+
+                    <div class="content row g-4">
+
+                        <div class="outer col-12 col-md-6 col-lg-4">
+                            <div
+                                class="d-flex flex-column p-4 gap-3 align-items-start rounded-4 hover-up-shadow-dark orange-gradiant h-100">
+                                <div
+                                    class="img d-flex h-14 w-14 flex-shrink-0 align-items-center justify-content-center bg-orange rounded-4 text-white">
+                                    <i class="fa-brands fa-aws fa-lg"></i>
+                                </div>
+                                <div class="text">
+                                    <div class="lable fw-bold text-d-primary mb-2">Amazon AWS</div>
+                                    <div class="info small">
+                                        Comprehensive cloud computing platform with extensive services
+                                    </div>
+                                </div>
+                                <div class="tags">
+                                    <span
+                                        class="px-2 py-1 orange-gradiant-trans text-orange rounded-pill fa-2xs">EC2</span>
+                                    <span
+                                        class="px-2 py-1 orange-gradiant-trans text-orange rounded-pill fa-2xs">Lambda</span>
+                                    <span
+                                        class="px-2 py-1 orange-gradiant-trans text-orange rounded-pill fa-2xs">S3</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="outer col-12 col-md-6 col-lg-4">
+                            <div
+                                class="d-flex flex-column p-4 gap-3 align-items-start rounded-4 hover-up-shadow-dark blue-gradiant h-100">
+                                <div
+                                    class="img d-flex h-14 w-14 flex-shrink-0 align-items-center justify-content-center bg-blue rounded-4 text-white">
+                                    <i class="fa-brands fa-microsoft fa-lg"></i>
+                                </div>
+                                <div class="text">
+                                    <div class="lable fw-bold text-d-primary mb-2">Microsoft Azure</div>
+                                    <div class="info small">
+                                        Enterprise cloud platform with integrated development tools
+                                    </div>
+                                </div>
+                                <div class="tags">
+                                    <span class="px-2 py-1 blue-gradiant-trans text-blue rounded-pill fa-2xs">App
+                                        Service</span>
+                                    <span
+                                        class="px-2 py-1 blue-gradiant-trans text-blue rounded-pill fa-2xs">Functions</span>
+                                    <span
+                                        class="px-2 py-1 blue-gradiant-trans text-blue rounded-pill fa-2xs">DevOps</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="outer col-12 col-md-6 col-lg-4">
+                            <div
+                                class="d-flex flex-column p-4 gap-3 align-items-start rounded-4 hover-up-shadow-dark red-gradiant h-100">
+                                <div
+                                    class="img d-flex h-14 w-14 flex-shrink-0 align-items-center justify-content-center bg-red rounded-4 text-white">
+                                    <i class="fa-brands fa-google fa-lg"></i>
+                                </div>
+                                <div class="text">
+                                    <div class="lable fw-bold text-d-primary mb-2">Google Cloud</div>
+                                    <div class="info small">
+                                        Google's cloud computing platform with AI and ML capabilities
+                                    </div>
+                                </div>
+                                <div class="tags">
+                                    <span class="px-2 py-1 red-gradiant-trans text-red rounded-pill fa-2xs">Compute
+                                        Engine</span>
+                                    <span class="px-2 py-1 red-gradiant-trans text-red rounded-pill fa-2xs">Cloud
+                                        Run</span>
+                                    <span
+                                        class="px-2 py-1 red-gradiant-trans text-red rounded-pill fa-2xs">BigQuery</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="outer col-12 col-md-6 col-lg-4">
+                            <div
+                                class="d-flex flex-column p-4 gap-3 align-items-start rounded-4 hover-up-shadow-dark blue-gradiant h-100">
+                                <div
+                                    class="img d-flex h-14 w-14 flex-shrink-0 align-items-center justify-content-center bg-blue rounded-4 text-white">
+                                    <i class="fa-brands fa-docker fa-lg"></i>
+                                </div>
+                                <div class="text">
+                                    <div class="lable fw-bold text-d-primary mb-2">Docker</div>
+                                    <div class="info small">
+                                        Containerization platform for consistent application deployment
+                                    </div>
+                                </div>
+                                <div class="tags">
+                                    <span
+                                        class="px-2 py-1 blue-gradiant-trans text-blue rounded-pill fa-2xs">Containers</span>
+                                    <span
+                                        class="px-2 py-1 blue-gradiant-trans text-blue rounded-pill fa-2xs">Images</span>
+                                    <span
+                                        class="px-2 py-1 blue-gradiant-trans text-blue rounded-pill fa-2xs">Compose</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="outer col-12 col-md-6 col-lg-4">
+                            <div
+                                class="d-flex flex-column p-4 gap-3 align-items-start rounded-4 hover-up-shadow-dark purple-gradiant h-100">
+                                <div
+                                    class="img d-flex h-14 w-14 flex-shrink-0 align-items-center justify-content-center bg-purple rounded-4 text-white">
+                                    <span class="fa-xs fw-bold">K8s</span>
+                                </div>
+                                <div class="text">
+                                    <div class="lable fw-bold text-d-primary mb-2">Kubernetes</div>
+                                    <div class="info small">
+                                        Container orchestration system for automating deployment and scaling
+                                    </div>
+                                </div>
+                                <div class="tags">
+                                    <span
+                                        class="px-2 py-1 purple-gradiant-trans text-purple rounded-pill fa-2xs">Pods</span>
+                                    <span
+                                        class="px-2 py-1 purple-gradiant-trans text-purple rounded-pill fa-2xs">Services</span>
+                                    <span
+                                        class="px-2 py-1 purple-gradiant-trans text-purple rounded-pill fa-2xs">Helm</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="outer col-12 col-md-6 col-lg-4">
+                            <div
+                                class="d-flex flex-column p-4 gap-3 align-items-start rounded-4 hover-up-shadow-dark gray-gradiant h-100">
+                                <div
+                                    class="img d-flex h-14 w-14 flex-shrink-0 align-items-center justify-content-center bg-gray rounded-4 text-white">
+                                    <i class="fa-brands fa-jenkins fa-lg"></i>
+                                </div>
+                                <div class="text">
+                                    <div class="lable fw-bold text-d-primary mb-2">CI/CD Pipeline</div>
+                                    <div class="info small">
+                                        Automated build, test, and deployment workflows
+                                    </div>
+                                </div>
+                                <div class="tags">
+                                    <span
+                                        class="px-2 py-1 gray-gradiant-trans text-gray rounded-pill fa-2xs">Jenkins</span>
+                                    <span class="px-2 py-1 gray-gradiant-trans text-gray rounded-pill fa-2xs">GitHub
+                                        Actions</span>
+                                    <span class="px-2 py-1 gray-gradiant-trans text-gray rounded-pill fa-2xs">GitLab
+                                        CI</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+                </div>
+                <div class="tab-pane fade" id="database-tab-pane" role="tabpanel" tabindex="0">
+
+
+                    <div class="heading text-center d-flex flex-column align-items-center mb-32 mt-5">
+                        <h2 class="fs-3 fw-900 mb-2">
+                            <span class="text-d-primary">Database Technologies</span>
+                        </h2>
+                        <p class="max-w-750">
+                            Robust data storage solutions for modern applications
+                        </p>
+                    </div>
+
+                    <div class="content row g-4">
+
+                        <div class="outer col-12 col-md-6 col-lg-4">
+                            <div
+                                class="d-flex flex-column p-4 gap-3 align-items-start rounded-4 hover-up-shadow-dark blue-gradiant h-100">
+                                <div
+                                    class="img d-flex h-14 w-14 flex-shrink-0 align-items-center justify-content-center bg-blue rounded-4 text-white">
+                                    <i class="fa-solid fa-database fa-lg"></i>
+                                </div>
+                                <div class="text">
+                                    <div class="lable fw-bold text-d-primary mb-2">PostgreSQL</div>
+                                    <div class="info small">
+                                        Advanced open-source relational database with JSON support
+                                    </div>
+                                </div>
+                                <div class="tags">
+                                    <span
+                                        class="px-2 py-1 blue-gradiant-trans text-blue rounded-pill fa-2xs">ACID</span>
+                                    <span
+                                        class="px-2 py-1 blue-gradiant-trans text-blue rounded-pill fa-2xs">JSON</span>
+                                    <span
+                                        class="px-2 py-1 blue-gradiant-trans text-blue rounded-pill fa-2xs">Extensions</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="outer col-12 col-md-6 col-lg-4">
+                            <div
+                                class="d-flex flex-column p-4 gap-3 align-items-start rounded-4 hover-up-shadow-dark green-gradiant h-100">
+                                <div
+                                    class="img d-flex h-14 w-14 flex-shrink-0 align-items-center justify-content-center bg-green rounded-4 text-white">
+                                    <span class="fa-xs fw-bold">Mongo</span>
+                                </div>
+                                <div class="text">
+                                    <div class="lable fw-bold text-d-primary mb-2">MongoDB</div>
+                                    <div class="info small">
+                                        Flexible NoSQL document database for modern applications
+                                    </div>
+                                </div>
+                                <div class="tags">
+                                    <span
+                                        class="px-2 py-1 green-gradiant-trans text-green rounded-pill fa-2xs">Documents</span>
+                                    <span
+                                        class="px-2 py-1 green-gradiant-trans text-green rounded-pill fa-2xs">Aggregation</span>
+                                    <span
+                                        class="px-2 py-1 green-gradiant-trans text-green rounded-pill fa-2xs">Sharding</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="outer col-12 col-md-6 col-lg-4">
+                            <div
+                                class="d-flex flex-column p-4 gap-3 align-items-start rounded-4 hover-up-shadow-dark red-gradiant h-100">
+                                <div
+                                    class="img d-flex h-14 w-14 flex-shrink-0 align-items-center justify-content-center bg-red rounded-4 text-white">
+                                    <i class="fa-solid fa-fire fa-lg"></i>
+                                </div>
+                                <div class="text">
+                                    <div class="lable fw-bold text-d-primary mb-2">Redis</div>
+                                    <div class="info small">
+                                        In-memory data structure store for caching and real-time applications
+                                    </div>
+                                </div>
+                                <div class="tags">
+                                    <span class="px-2 py-1 red-gradiant-trans text-red rounded-pill fa-2xs">Cache</span>
+                                    <span
+                                        class="px-2 py-1 red-gradiant-trans text-red rounded-pill fa-2xs">Pub/Sub</span>
+                                    <span
+                                        class="px-2 py-1 red-gradiant-trans text-red rounded-pill fa-2xs">Streams</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="outer col-12 col-md-6 col-lg-4">
+                            <div
+                                class="d-flex flex-column p-4 gap-3 align-items-start rounded-4 hover-up-shadow-dark yellow-gradiant h-100">
+                                <div
+                                    class="img d-flex h-14 w-14 flex-shrink-0 align-items-center justify-content-center bg-yellow rounded-4 text-white">
+                                    <i class="fa-solid fa-database fa-lg"></i>
+                                </div>
+                                <div class="text">
+                                    <div class="lable fw-bold text-d-primary mb-2">MySQL</div>
+                                    <div class="info small">
+                                        Popular open-source relational database management system
+                                    </div>
+                                </div>
+                                <div class="tags">
+                                    <span
+                                        class="px-2 py-1 yellow-gradiant-trans text-yellow rounded-pill fa-2xs">InnoDB</span>
+                                    <span
+                                        class="px-2 py-1 yellow-gradiant-trans text-yellow rounded-pill fa-2xs">Replication</span>
+                                    <span
+                                        class="px-2 py-1 yellow-gradiant-trans text-yellow rounded-pill fa-2xs">Clustering</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="outer col-12 col-md-6 col-lg-4">
+                            <div
+                                class="d-flex flex-column p-4 gap-3 align-items-start rounded-4 hover-up-shadow-dark purple-gradiant h-100">
+                                <div
+                                    class="img d-flex h-14 w-14 flex-shrink-0 align-items-center justify-content-center bg-purple rounded-4 text-white">
+                                    <i class="fa-solid fa-chart-line fa-lg"></i>
+                                </div>
+                                <div class="text">
+                                    <div class="lable fw-bold text-d-primary mb-2">Elasticsearch</div>
+                                    <div class="info small">
+                                        Distributed search and analytics engine for complex queries
+                                    </div>
+                                </div>
+                                <div class="tags">
+                                    <span
+                                        class="px-2 py-1 purple-gradiant-trans text-purple rounded-pill fa-2xs">Search</span>
+                                    <span
+                                        class="px-2 py-1 purple-gradiant-trans text-purple rounded-pill fa-2xs">Analytics</span>
+                                    <span
+                                        class="px-2 py-1 purple-gradiant-trans text-purple rounded-pill fa-2xs">Kibana</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="outer col-12 col-md-6 col-lg-4">
+                            <div
+                                class="d-flex flex-column p-4 gap-3 align-items-start rounded-4 hover-up-shadow-dark purple-gradiant h-100">
+                                <div
+                                    class="img d-flex h-14 w-14 flex-shrink-0 align-items-center justify-content-center bg-purple rounded-4 text-white">
+                                    <i class="fa-solid fa-diagram-project fa-lg"></i>
+                                </div>
+                                <div class="text">
+                                    <div class="lable fw-bold text-d-primary mb-2">GraphQL</div>
+                                    <div class="info small">
+                                        Query language and runtime for APIs with flexible data fetching
+                                    </div>
+                                </div>
+                                <div class="tags">
+                                    <span
+                                        class="px-2 py-1 purple-gradiant-trans text-purple rounded-pill fa-2xs">Schema</span>
+                                    <span
+                                        class="px-2 py-1 purple-gradiant-trans text-purple rounded-pill fa-2xs">Resolvers</span>
+                                    <span
+                                        class="px-2 py-1 purple-gradiant-trans text-purple rounded-pill fa-2xs">Apollo</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
             </div>
         </div>
     </div>
+
+    
     <script src="js/all.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
 
