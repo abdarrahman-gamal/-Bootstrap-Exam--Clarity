@@ -102,12 +102,29 @@
     height: calc(10*var(--spacing));
 }
 
+.w-2 {
+    width: calc(2*var(--spacing));
+}
+
+.h-2 {
+    height: calc(2*var(--spacing));
+}
+
 .w-14 {
     width: calc(14*var(--spacing));
 }
 
 .h-14 {
     height: calc(14*var(--spacing));
+}
+
+
+.w-16 {
+    width: calc(16*var(--spacing));
+}
+
+.h-16 {
+    height: calc(16*var(--spacing));
 }
 
 .dropdown-toggle::after {
@@ -235,12 +252,31 @@
     max-width: 750px;
 }
 
+.max-w-950 {
+    max-width: 1100px;
+}
+
 .hover-up-shadow {
     position: relative;
     box-shadow: #ea5a0c00 0px 0px 0px 0px;
     top: 0px;
     transition: .4s;
 }
+
+.hover-up-shadow-dark {
+
+    position: relative;
+    box-shadow: #ea5a0c00 0px 0px 0px 0px;
+    top: 0px;
+    transition: .4s;
+
+}
+
+.hover-up-shadow-dark:hover {
+    box-shadow: #00000011 0px 10px 20px 10px;
+    top: -10px;
+}
+
 
 .hover-up-shadow:hover {
     box-shadow: #ea5a0c11 0px 10px 20px 10px;
@@ -392,6 +428,58 @@
     color: #D08700;
 }
 
+.bar-grad-bg {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, oklch(0.928 0.006 264.531) 50%, rgba(0, 0, 0, 0) 100%)
+}
+
+.star-yellow {
+    color: #FDC700;
+}
+
+
+
+.carousel-indicators [data-bs-target] {
+    width: 8px;
+    height: 8px;
+    border: 0;
+    border-radius: 999px;
+    transition: .3s;
+}
+
+.carousel-indicators [data-bs-target]:hover {
+    width: 32px;
+}
+
+
+.carousel-dark {
+    --bs-carousel-indicator-active-bg: var(--gray-300);
+    --bs-carousel-control-icon-filter: invert(0) grayscale(100);
+}
+
+.carousel-indicators .active {
+    background-color: var(--primary-color)
+}
+
+
+.bg-white-grad-on-hover {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+}
+
+.bg-white-grad-on-hover::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: linear-gradient(to right bottom, color-mix(in oklab, var(--primary-2) 20%, transparent), transparent, color-mix(in oklab, var(--primary-2) 5%, transparent));
+    opacity: 0;
+    transition: opacity .3s ease;
+    z-index: -1;
+}
+
+.bg-white-grad-on-hover:hover::before {
+    opacity: 1;
+}
 
 
 /* Large screens (xl) and up */
