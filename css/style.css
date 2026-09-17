@@ -518,6 +518,15 @@
     border-color: var(--primary-color);
 }
 
+.bg-light {
+    transition: .3s;
+}
+
+#footer .bg-light:hover{
+    --bs-light-rgb: var(--bs-primary-rgb);
+    --bs-secondary-color:#fff;
+}
+
 /* ---------- هذا الجزء مولد ثم تم التعديل عليه ----------*/
 
 .budget-option {
