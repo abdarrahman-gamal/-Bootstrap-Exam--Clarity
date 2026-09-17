@@ -15,6 +15,7 @@
     --bs-link-hover-color-rgb: 195, 67, 15;
     --dark-primary: #7C2D12;
     --gray-300: #d1d5db;
+    --gray-500: #d1d5db2f;
 }
 
 
@@ -220,6 +221,10 @@
 
 .mb-32 {
     margin-bottom: 32px;
+}
+
+.asp-1 {
+    aspect-ratio: 1 / 1;
 }
 
 .img-out {
@@ -481,6 +486,59 @@
     opacity: 1;
 }
 
+.accordion-button::after {
+    content: none;
+}
+
+.accordion {
+    --bs-accordion-active-bg: var(--gray-500);
+    --bs-accordion-btn-focus-box-shadow: 0;
+}
+
+
+.accordion-item:not(:first-of-type) {
+    border-top: 1px solid #dee2e6;
+}
+
+
+.form-btn{
+    background-image: linear-gradient(to right in oklab, rgb(234, 88, 12) 0%, rgb(194, 65, 12) 50%, rgb(251, 146, 60) 100%);
+}
+
+
+.form-control:focus, .form-select:focus, .form-check-input:focus {
+    border-color: var(--primary-color);
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(253, 141, 13, 0.25);
+    border-width: 2px;
+}
+
+.form-check-input:checked {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+/* ---------- هذا الجزء مولد ثم تم التعديل عليه ----------*/
+
+.budget-option {
+
+    border: 1px solid var(--gray-300);
+    cursor: pointer;
+    transition: .2s;
+}
+
+.budget-option:hover {
+    border-color: var(--primary-color);
+}
+
+input[type="radio"]:checked + .budget-option {
+    border-color: var(--primary-color);
+    background-color: var(--gray-500);
+    color: var(--primary-color);
+}
+
+
+/* ---------------------- */
 
 /* Large screens (xl) and up */
 @media (min-width: 1200px) {
